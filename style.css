@@ -1726,4 +1726,16 @@ ul.red-bullets, li.red-bullets {
         padding: 25px 25px;
     }
 }
+
+@media (min-width: 950px) and (max-width: 1000px) {
+    .title-height-medium {
+        min-height: 75px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .title-height-large {
+        min-height: 50px;
+    }
+}
   
