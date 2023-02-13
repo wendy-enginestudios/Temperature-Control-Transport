@@ -1738,4 +1738,22 @@ ul.red-bullets, li.red-bullets {
         min-height: 50px;
     }
 }
+
+@media (min-width: 960px) and (max-width:1090px) {
+    #supply-chain .title-size-medium {
+        font-size: 16px;
+    } 
+}
+
+@media (min-width: 1090px) and (max-width:1250px) {
+    #supply-chain .title-size-large {
+        font-size: 20px;
+    } 
+}
+
+@media (min-width: 1250px) and (max-width:1270px) {
+    #supply-chain .title-size-large {
+        font-size: 22px;
+    } 
+}
   
