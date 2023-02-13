@@ -1740,13 +1740,13 @@ ul.red-bullets, li.red-bullets {
 }
 
 @media (min-width: 960px) and (max-width:1090px) {
-    #supply-chain .title-size-medium {
+    #supply-chain .title-size-small {
         font-size: 16px;
     } 
 }
 
 @media (min-width: 1090px) and (max-width:1250px) {
-    #supply-chain .title-size-large {
+    #supply-chain .title-size-medium {
         font-size: 20px;
     } 
 }
@@ -1755,5 +1755,17 @@ ul.red-bullets, li.red-bullets {
     #supply-chain .title-size-large {
         font-size: 22px;
     } 
+}
+
+@media (min-width: 1180px) {
+    .remove-padding-top-on-large-screen {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 760px) {
+    .remove-padding-top-on-small-screen {
+        padding-top: 0;
+    }
 }
   
